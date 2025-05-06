@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ouch My Ears</title>
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,600" rel="stylesheet" />
+  <link rel="stylesheet" href="dist/css/style.css" />
+  <script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+  <style>
+    .image-box {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      margin-bottom: 24px;
+      transition: transform 0.3s ease;
+    }
+    .image-box:hover {
+      transform: scale(1.02);
+    }
+    .image-box img {
+      width: 100%;
+      border-radius: 8px;
+      display: block;
+    }
+  </style>
+</head>
+
+<body class="is-boxed has-animations">
+  <div class="body-wrap">
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header-inner">
+          <div class="brand header-brand">
+            <h1 class="m-0">
+              <a href="#">
+                <img class="header-logo-image" src="dist/images/logo.svg" alt="Logo" />
+              </a>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-inner">
+            <div class="hero-copy">
+              <h1 class="hero-title mt-0">Ouch My Ears</h1>
+              <p class="hero-paragraph">
+                A simple mobile app that gives you instant awareness of your sound environment. See live noise levels with clear color indicators — helping you stay safe in loud places.
+              </p>
+              <div class="hero-cta">
+                <a class="button button-primary" href="#">Try it now</a>
+                <a class="button" href="#">Contact us</a>
+              </div>
+            </div>
+            <div class="hero-figure anime-element">
+              <img src="dist/images/app-hero-placeholder.png" alt="App preview" style="max-width: 100%; border-radius: 12px;" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features section">
+        <div class="container">
+          <div class="features-inner section-inner has-bottom-divider">
+            <div class="features-wrap">
+              <!-- Feature 1 -->
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="image-box">
+                    <img src="solid/images/ss4.png" alt="Live Decibel Reading" />
+                  </div>
+                  <h4 class="feature-title mt-24">Live Noise Level Display</h4>
+                  <p class="text-sm mb-0">
+                    Instantly shows the current noise level around you in decibels. Ideal for gigs, commutes, or simply being mindful of your surroundings.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Feature 2 -->
+              <div class="feature text-center is-revealing">
+                <div class="feature-inner">
+                  <div class="image-box">
+                    <img src="solid/dist/images/ss5.png" alt="Color Feedback UI" />
+                  </div>
+                  <h4 class="feature-title mt-24">Color-Based Feedback</h4>
+                  <p class="text-sm mb-0">
+                    The app uses a simple green/yellow/red color scheme to indicate safe or harmful volume levels — no numbers needed for quick awareness.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta section">
+        <div class="container">
+          <div class="cta-inner section-inner">
+            <h3 class="section-title mt-0">Want to learn more or provide feedback?</h3>
+            <div class="cta-cta">
+              <a class="button button-primary button-wide-mobile" href="#">Get in touch</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer-inner">
+          <div class="brand footer-brand">
+            <a href="#">
+              <img class="header-logo-image" src="dist/images/logo.svg" alt="Logo" />
+            </a>
+          </div>
+          <ul class="footer-links list-reset">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">FAQ's</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+          <ul class="footer-social-links list-reset">
+            <li><a href="#"><span class="screen-reader-text">Facebook</span></a></li>
+            <li><a href="#"><span class="screen-reader-text">Twitter</span></a></li>
+            <li><a href="#"><span class="screen-reader-text">Google</span></a></li>
+          </ul>
+          <div class="footer-copyright">
+            &copy; 2025 Ouch My Ears, all rights reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="dist/js/main.min.js"></script>
+</body>
+</html>
